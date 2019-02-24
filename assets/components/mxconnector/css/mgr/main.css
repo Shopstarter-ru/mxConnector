@@ -1,0 +1,100 @@
+/* Grid */
+.mxconnector-mxconnector-row-disabled { font-style: italic; opacity: .6; color: #555; }
+.x-grid3-col-actions { padding: 3px 0 3px 5px; }
+
+/* Actions */
+.action-red { color: darkred !important; }
+.action-green { color: darkgreen !important; }
+.action-blue { color: cadetblue !important; }
+.action-yellow { color: goldenrod !important; }
+.action-gray { color: dimgray !important; }
+ul.mxconnector-row-actions { margin: 0; padding: 0; list-style: none; }
+ul.mxconnector-row-actions li { float: left; }
+ul.mxconnector-row-actions .mxconnector-btn { padding: 5px; margin-right: 2px; min-width: 26px; font-size: inherit; }
+
+/* Action menu */
+a.x-menu-item .x-menu-item-text, a.x-menu-item .x-menu-item-text .icon { cursor: pointer; }
+a.x-menu-item .x-menu-item-text .icon { line-height: 16px; top: auto; }
+.x-menu-list .icon { min-width: 1em; text-align: center; }
+.x-menu-list-item:hover .icon { color: inherit !important; }
+ul.mxconnector-row-actions .actions-menu { width: 40px; }
+ul.mxconnector-row-actions .actions-menu:after { content: " \f107"; }
+
+/* Search field */
+.x-field-search-clear,
+.x-field-search-go { border-left: 1px solid #e4e4e4 !important; }
+.x-field-search-clear:hover,
+.x-field-search-go:hover { border-left-color: transparent !important; }
+.x-field-search-clear:before { content: '\f00d' !important; }
+.x-field-search-go { right: 31px !important; border-radius: 0 !important; }
+.x-field-search-go:before { content: '\f002' !important; }
+
+/* Buttons */
+.mxconnector-btn { display: inline-block; margin-bottom: 0; font-weight: normal; text-align: center; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation; cursor: pointer; background-image: none; border: 1px solid transparent; white-space: nowrap; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none }
+.mxconnector-btn:focus, .mxconnector-btn:active:focus, .mxconnector-btn.active:focus, .mxconnector-btn.focus, .mxconnector-btn:active.focus, .mxconnector-btn.active.focus { outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px }
+.mxconnector-btn:hover, .mxconnector-btn:focus, .mxconnector-btn.focus { color: #333; text-decoration: none }
+.mxconnector-btn:active, .mxconnector-btn.active { outline: 0; background-image: none; -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) }
+.mxconnector-btn.disabled, .mxconnector-btn[disabled], fieldset[disabled] .mxconnector-btn { cursor: not-allowed; opacity: .65; filter: alpha(opacity=65); -webkit-box-shadow: none; box-shadow: none }
+a.mxconnector-btn.disabled, fieldset[disabled] a.mxconnector-btn { pointer-events: none }
+.mxconnector-btn-default { color: #333; background-color: #fff; border-color: #ccc }
+.mxconnector-btn-default:focus, .mxconnector-btn-default.focus { color: #333; background-color: #e6e6e6; border-color: #8c8c8c }
+.mxconnector-btn-default:hover { color: #333; background-color: #e6e6e6; border-color: #adadad }
+.mxconnector-btn-default:active, .mxconnector-btn-default.active, .open > .dropdown-toggle.mxconnector-btn-default { color: #333; background-color: #e6e6e6; border-color: #adadad }
+.mxconnector-btn-default:active:hover, .mxconnector-btn-default.active:hover, .open > .dropdown-toggle.mxconnector-btn-default:hover, .mxconnector-btn-default:active:focus, .mxconnector-btn-default.active:focus, .open > .dropdown-toggle.mxconnector-btn-default:focus, .mxconnector-btn-default:active.focus, .mxconnector-btn-default.active.focus, .open > .dropdown-toggle.mxconnector-btn-default.focus { color: #333; background-color: #d4d4d4; border-color: #8c8c8c }
+.mxconnector-btn-default:active, .mxconnector-btn-default.active, .open > .dropdown-toggle.mxconnector-btn-default { background-image: none }
+.mxconnector-btn-default.disabled:hover, .mxconnector-btn-default[disabled]:hover, fieldset[disabled] .mxconnector-btn-default:hover, .mxconnector-btn-default.disabled:focus, .mxconnector-btn-default[disabled]:focus, fieldset[disabled] .mxconnector-btn-default:focus, .mxconnector-btn-default.disabled.focus, .mxconnector-btn-default[disabled].focus, fieldset[disabled] .mxconnector-btn-default.focus { background-color: #fff; border-color: #ccc }
+.mxconnector-btn-default .badge { color: #fff; background-color: #333 }
+.mxconnector-btn-primary { color: #fff; background-color: #337ab7; border-color: #2e6da4 }
+.mxconnector-btn-primary:focus, .mxconnector-btn-primary.focus { color: #fff; background-color: #286090; border-color: #122b40 }
+.mxconnector-btn-primary:hover { color: #fff; background-color: #286090; border-color: #204d74 }
+.mxconnector-btn-primary:active, .mxconnector-btn-primary.active, .open > .dropdown-toggle.mxconnector-btn-primary { color: #fff; background-color: #286090; border-color: #204d74 }
+.mxconnector-btn-primary:active:hover, .mxconnector-btn-primary.active:hover, .open > .dropdown-toggle.mxconnector-btn-primary:hover, .mxconnector-btn-primary:active:focus, .mxconnector-btn-primary.active:focus, .open > .dropdown-toggle.mxconnector-btn-primary:focus, .mxconnector-btn-primary:active.focus, .mxconnector-btn-primary.active.focus, .open > .dropdown-toggle.mxconnector-btn-primary.focus { color: #fff; background-color: #204d74; border-color: #122b40 }
+.mxconnector-btn-primary:active, .mxconnector-btn-primary.active, .open > .dropdown-toggle.mxconnector-btn-primary { background-image: none }
+.mxconnector-btn-primary.disabled:hover, .mxconnector-btn-primary[disabled]:hover, fieldset[disabled] .mxconnector-btn-primary:hover, .mxconnector-btn-primary.disabled:focus, .mxconnector-btn-primary[disabled]:focus, fieldset[disabled] .mxconnector-btn-primary:focus, .mxconnector-btn-primary.disabled.focus, .mxconnector-btn-primary[disabled].focus, fieldset[disabled] .mxconnector-btn-primary.focus { background-color: #337ab7; border-color: #2e6da4 }
+.mxconnector-btn-primary .badge { color: #337ab7; background-color: #fff }
+.mxconnector-btn-success { color: #fff; background-color: #5cb85c; border-color: #4cae4c }
+.mxconnector-btn-success:focus, .mxconnector-btn-success.focus { color: #fff; background-color: #449d44; border-color: #255625 }
+.mxconnector-btn-success:hover { color: #fff; background-color: #449d44; border-color: #398439 }
+.mxconnector-btn-success:active, .mxconnector-btn-success.active, .open > .dropdown-toggle.mxconnector-btn-success { color: #fff; background-color: #449d44; border-color: #398439 }
+.mxconnector-btn-success:active:hover, .mxconnector-btn-success.active:hover, .open > .dropdown-toggle.mxconnector-btn-success:hover, .mxconnector-btn-success:active:focus, .mxconnector-btn-success.active:focus, .open > .dropdown-toggle.mxconnector-btn-success:focus, .mxconnector-btn-success:active.focus, .mxconnector-btn-success.active.focus, .open > .dropdown-toggle.mxconnector-btn-success.focus { color: #fff; background-color: #398439; border-color: #255625 }
+.mxconnector-btn-success:active, .mxconnector-btn-success.active, .open > .dropdown-toggle.mxconnector-btn-success { background-image: none }
+.mxconnector-btn-success.disabled:hover, .mxconnector-btn-success[disabled]:hover, fieldset[disabled] .mxconnector-btn-success:hover, .mxconnector-btn-success.disabled:focus, .mxconnector-btn-success[disabled]:focus, fieldset[disabled] .mxconnector-btn-success:focus, .mxconnector-btn-success.disabled.focus, .mxconnector-btn-success[disabled].focus, fieldset[disabled] .mxconnector-btn-success.focus { background-color: #5cb85c; border-color: #4cae4c }
+.mxconnector-btn-success .badge { color: #5cb85c; background-color: #fff }
+.mxconnector-btn-info { color: #fff; background-color: #5bc0de; border-color: #46b8da }
+.mxconnector-btn-info:focus, .mxconnector-btn-info.focus { color: #fff; background-color: #31b0d5; border-color: #1b6d85 }
+.mxconnector-btn-info:hover { color: #fff; background-color: #31b0d5; border-color: #269abc }
+.mxconnector-btn-info:active, .mxconnector-btn-info.active, .open > .dropdown-toggle.mxconnector-btn-info { color: #fff; background-color: #31b0d5; border-color: #269abc }
+.mxconnector-btn-info:active:hover, .mxconnector-btn-info.active:hover, .open > .dropdown-toggle.mxconnector-btn-info:hover, .mxconnector-btn-info:active:focus, .mxconnector-btn-info.active:focus, .open > .dropdown-toggle.mxconnector-btn-info:focus, .mxconnector-btn-info:active.focus, .mxconnector-btn-info.active.focus, .open > .dropdown-toggle.mxconnector-btn-info.focus { color: #fff; background-color: #269abc; border-color: #1b6d85 }
+.mxconnector-btn-info:active, .mxconnector-btn-info.active, .open > .dropdown-toggle.mxconnector-btn-info { background-image: none }
+.mxconnector-btn-info.disabled:hover, .mxconnector-btn-info[disabled]:hover, fieldset[disabled] .mxconnector-btn-info:hover, .mxconnector-btn-info.disabled:focus, .mxconnector-btn-info[disabled]:focus, fieldset[disabled] .mxconnector-btn-info:focus, .mxconnector-btn-info.disabled.focus, .mxconnector-btn-info[disabled].focus, fieldset[disabled] .mxconnector-btn-info.focus { background-color: #5bc0de; border-color: #46b8da }
+.mxconnector-btn-info .badge { color: #5bc0de; background-color: #fff }
+.mxconnector-btn-warning { color: #fff; background-color: #f0ad4e; border-color: #eea236 }
+.mxconnector-btn-warning:focus, .mxconnector-btn-warning.focus { color: #fff; background-color: #ec971f; border-color: #985f0d }
+.mxconnector-btn-warning:hover { color: #fff; background-color: #ec971f; border-color: #d58512 }
+.mxconnector-btn-warning:active, .mxconnector-btn-warning.active, .open > .dropdown-toggle.mxconnector-btn-warning { color: #fff; background-color: #ec971f; border-color: #d58512 }
+.mxconnector-btn-warning:active:hover, .mxconnector-btn-warning.active:hover, .open > .dropdown-toggle.mxconnector-btn-warning:hover, .mxconnector-btn-warning:active:focus, .mxconnector-btn-warning.active:focus, .open > .dropdown-toggle.mxconnector-btn-warning:focus, .mxconnector-btn-warning:active.focus, .mxconnector-btn-warning.active.focus, .open > .dropdown-toggle.mxconnector-btn-warning.focus { color: #fff; background-color: #d58512; border-color: #985f0d }
+.mxconnector-btn-warning:active, .mxconnector-btn-warning.active, .open > .dropdown-toggle.mxconnector-btn-warning { background-image: none }
+.mxconnector-btn-warning.disabled:hover, .mxconnector-btn-warning[disabled]:hover, fieldset[disabled] .mxconnector-btn-warning:hover, .mxconnector-btn-warning.disabled:focus, .mxconnector-btn-warning[disabled]:focus, fieldset[disabled] .mxconnector-btn-warning:focus, .mxconnector-btn-warning.disabled.focus, .mxconnector-btn-warning[disabled].focus, fieldset[disabled] .mxconnector-btn-warning.focus { background-color: #f0ad4e; border-color: #eea236 }
+.mxconnector-btn-warning .badge { color: #f0ad4e; background-color: #fff }
+.mxconnector-btn-danger { color: #fff; background-color: #d9534f; border-color: #d43f3a }
+.mxconnector-btn-danger:focus, .mxconnector-btn-danger.focus { color: #fff; background-color: #c9302c; border-color: #761c19 }
+.mxconnector-btn-danger:hover { color: #fff; background-color: #c9302c; border-color: #ac2925 }
+.mxconnector-btn-danger:active, .mxconnector-btn-danger.active, .open > .dropdown-toggle.mxconnector-btn-danger { color: #fff; background-color: #c9302c; border-color: #ac2925 }
+.mxconnector-btn-danger:active:hover, .mxconnector-btn-danger.active:hover, .open > .dropdown-toggle.mxconnector-btn-danger:hover, .mxconnector-btn-danger:active:focus, .mxconnector-btn-danger.active:focus, .open > .dropdown-toggle.mxconnector-btn-danger:focus, .mxconnector-btn-danger:active.focus, .mxconnector-btn-danger.active.focus, .open > .dropdown-toggle.mxconnector-btn-danger.focus { color: #fff; background-color: #ac2925; border-color: #761c19 }
+.mxconnector-btn-danger:active, .mxconnector-btn-danger.active, .open > .dropdown-toggle.mxconnector-btn-danger { background-image: none }
+.mxconnector-btn-danger.disabled:hover, .mxconnector-btn-danger[disabled]:hover, fieldset[disabled] .mxconnector-btn-danger:hover, .mxconnector-btn-danger.disabled:focus, .mxconnector-btn-danger[disabled]:focus, fieldset[disabled] .mxconnector-btn-danger:focus, .mxconnector-btn-danger.disabled.focus, .mxconnector-btn-danger[disabled].focus, fieldset[disabled] .mxconnector-btn-danger.focus { background-color: #d9534f; border-color: #d43f3a }
+.mxconnector-btn-danger .badge { color: #d9534f; background-color: #fff }
+.mxconnector-btn-link { color: #337ab7; font-weight: normal; border-radius: 0 }
+.mxconnector-btn-link, .mxconnector-btn-link:active, .mxconnector-btn-link.active, .mxconnector-btn-link[disabled], fieldset[disabled] .mxconnector-btn-link { background-color: transparent; -webkit-box-shadow: none; box-shadow: none }
+.mxconnector-btn-link, .mxconnector-btn-link:hover, .mxconnector-btn-link:focus, .mxconnector-btn-link:active { border-color: transparent }
+.mxconnector-btn-link:hover, .mxconnector-btn-link:focus { color: #23527c; text-decoration: underline; background-color: transparent }
+.mxconnector-btn-link[disabled]:hover, fieldset[disabled] .mxconnector-btn-link:hover, .mxconnector-btn-link[disabled]:focus, fieldset[disabled] .mxconnector-btn-link:focus { color: #777; text-decoration: none }
+.mxconnector-btn-lg { padding: 10px 16px; font-size: 18px; line-height: 1.3333333; border-radius: 6px }
+.mxconnector-btn-sm { padding: 5px 10px; font-size: 12px; line-height: 1.5; border-radius: 3px }
+.mxconnector-btn-xs { padding: 1px 5px; font-size: 12px; line-height: 1.5; border-radius: 3px }
+.mxconnector-btn-block { display: block; width: 100% }
+.mxconnector-btn-block + .mxconnector-btn-block { margin-top: 5px }
+
+.mxconnector-custom {
+    padding-right: 16px;
+}
